@@ -10,6 +10,9 @@ export const getStaticProps = async () => {
   const { pages } = await client.request(GET_PAGES)
 
   console.log(pages)
+  return {
+    props: {}
+  }
 }
 
 // getStaticPaths => serve para gerar as urls em build time /about, /trip/petropolis
