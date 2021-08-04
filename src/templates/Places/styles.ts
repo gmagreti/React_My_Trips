@@ -18,6 +18,8 @@ export const Heading = styled.h1`
 export const Body = styled.div`
   margin-bottom: var(--large);
   p {
+    max-width: var(--container);
+    word-break: break-all;
     margin-bottom: var(--medium);
   }
 `
